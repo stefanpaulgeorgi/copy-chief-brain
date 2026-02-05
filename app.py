@@ -291,53 +291,6 @@ def main():
 
         st.divider()
 
-        # === SAVED SESSIONS ===
-        st.subheader("📚 Saved Sessions")
-
-        sessions = list_sessions()
-
-        if sessions:
-            for session in sessions[:10]:  # Show last 10
-                # Format date nicely
-                try:
-                    dt = datetime.fromisoformat(session['updated_at'])
-                    date_str = dt.strftime("%b %d, %I:%M %p")
-                except:
-                    date_str = "Unknown"
-
-                col_load, col_del = st.columns([4, 1])
-
-                with col_load:
-                    label = f"**{session['copy_type'][:15]}**\n{session['copy_preview'][:40]}...\n_{date_str}_"
-                    if st.button(f"📄 {session['copy_type'][:20]}", key=f"load_{session['id']}", use_container_width=True):
-                        # Load the session
-                        loaded = load_session(session['id'])
-                        if loaded:
-                            st.session_state.current_session_id = loaded['id']
-                            st.session_state.current_copy = loaded.get('copy_text', '')
-                            st.session_state.current_copy_type = loaded.get('copy_type', 'General/Other')
-                            st.session_state.current_awareness_level = loaded.get('awareness_level', 'Not Sure / Mixed')
-                            st.session_state.current_user_context = loaded.get('user_context', '')
-                            st.session_state.current_feedback = loaded.get('feedback', '')
-                            st.session_state.chat_messages = loaded.get('chat_messages', [])
-                            st.session_state.review_complete = bool(loaded.get('feedback'))
-                            st.session_state.extracted_text = loaded.get('copy_text', '')
-                            st.rerun()
-
-                with col_del:
-                    if st.button("🗑️", key=f"del_{session['id']}"):
-                        delete_session(session['id'])
-                        st.rerun()
-
-                st.caption(f"{date_str} • {session['message_count']} msgs")
-
-            if len(sessions) > 10:
-                st.caption(f"... and {len(sessions) - 10} more")
-        else:
-            st.caption("No saved sessions yet")
-
-        st.divider()
-
         st.subheader("ℹ️ How it works")
         st.markdown("""
         1. Submit copy + specify the type
