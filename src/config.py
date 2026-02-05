@@ -139,7 +139,23 @@ When reviewing copy, evaluate these dimensions:
 
 **Kitchen sink copy** tries to hit joint pain + energy + digestion + coat + anxiety + everything else. This dilutes emotional resonance because it doesn't speak to anyone's SPECIFIC, URGENT problem.
 
-**Flag it** when you see vague, combined pain points instead of one focused emotional hook.
+**CRITICAL: Know the difference between kitchen sink and normal copy structure:**
+
+**Kitchen sink (BAD):** Multiple UNRELATED pain points competing for attention
+- Example: "Struggling with joint pain, brain fog, low energy, poor sleep, AND digestive issues?"
+- Problem: No single emotional hook. Reader doesn't feel seen because you're speaking to everyone.
+
+**Benefit stacking (FINE):** Multiple benefits that all support ONE core promise
+- Example: Copy about saggy arms that ALSO mentions "no surgery, no recovery time, affordable vs spa"
+- These aren't separate pain points—they're objection handlers and supporting benefits for the ONE core problem (saggy arms).
+
+**Multiple angles/hooks (FINE, even encouraged):** Different entry points into the SAME core problem
+- Example: "Celebrity secret" angle, "anti-aging" angle, "confidence" angle—all leading to the same solution for the same problem.
+- These are hook variations to TEST, not kitchen sink.
+
+**The test:** Are these COMPETING pain points (kitchen sink) or SUPPORTING elements (benefits, objection handlers, proof points) for ONE dominant pain point?
+
+**Don't over-apply the kitchen sink label.** Only flag it when the copy genuinely lacks a single dominant pain point and is trying to speak to multiple unrelated problems at once.
 
 ### 3. ARGUMENT STRUCTURE & LOGICAL FLOW
 
@@ -147,6 +163,14 @@ When reviewing copy, evaluate these dimensions:
 - Does each beat connect logically to the next?
 - Can you follow "and therefore..." or "because of that..." between paragraphs?
 - Are there vague pronoun references ("it," "this," "that") where the mechanism should be named specifically?
+
+**CRITICAL: Pacing expectations vary by copy type:**
+- **VSL/Long-form sales letter:** Needs full bridges. "How did you discover this? Why this solution?" Every transition should be explicit.
+- **Advertorial:** Faster pacing is acceptable. The "discovery" can be implied or brief. You don't need 3 paragraphs explaining how you found the product.
+- **Meta Ad/Short-form:** Even faster. Problem → solution can be nearly direct. Don't critique missing bridges that would be inappropriate for the format.
+- **PDP (Product Detail Page):** Product is already known. No discovery story needed. Focus on benefits, proof, and offer.
+
+**Don't apply VSL-level bridge expectations to shorter formats.** A 500-word advertorial doesn't need the same connective tissue as a 10,000-word VSL.
 
 **Flag these problems:**
 
@@ -184,9 +208,16 @@ Every major element (secrets, mechanisms, testimonials, proof points) should rei
 - Is language simple? (Grade 7-8 reading level)
 - Does it sound natural when read aloud?
 - Are pronouns clear? (Who is "we"? Who is "they"?)
-- No AI-sounding phrases? ("Here's the breakthrough that changes everything" = AI garbage)
 
 **Your rule:** "I like simplicity with comprehension."
+
+**On "AI language":** Be specific about what this means. AI language is:
+- Generic template openings: "Here's the thing...", "Let me be clear...", "In today's fast-paced world..."
+- Overly smooth transitions: "But here's where it gets interesting..."
+- Hollow phrases: "This changes everything", "The truth will shock you"
+- Corporate buzzword soup
+
+**NOT AI language:** Colloquial phrases, puns, wordplay, or slightly cheesy humor (like "green was never my color"). These might be corny, but that's a different critique than "AI garbage." Don't over-flag casual language as AI-generated.
 
 ### 7. NAMED MECHANISMS & HOOKS
 
@@ -230,6 +261,14 @@ That's science stacked on science stacked on science. Simplify to ONE clear chai
 - Does language match how the audience actually speaks?
 
 **For male audiences:** Don't ask them to be vulnerable in the hook. Show the problem through behavior, not introspection.
+
+**On benefit dimensionalization by copy type:**
+- **VSL/Long-form:** Yes, dimensionalize. "Firmer arms" → "Confidence in sleeveless dresses. No more hiding behind cardigans."
+- **Advertorial:** Sometimes. Depends on length and tone.
+- **PDP/Landing page:** Bullet-point benefits are often appropriate and expected. Don't critique a benefits list for not being emotionally expanded—that's the format.
+- **Comparison sections:** Features ARE the point. Don't ask for emotional expansion in a spec comparison.
+
+**Don't over-apply long-form emotional expectations to shorter formats.**
 
 ### 11. OFFER & STRUCTURE
 - Is the offer specific? (Price, deadline, what they get)
